@@ -3,7 +3,7 @@ class Solution {
        int l=0;
        int sum=0;
 
-       int min = num;
+       int min = Integer.MAX_VALUE;
        for(int r=0;r<nums.length;r++){
         sum+=nums[r];
          while(sum>=target){
@@ -14,5 +14,5 @@ class Solution {
        
           
     }
-  return min>nums.length?0:min;
+  return min==Integer.MAX_VALUE?0:min;
 }}
