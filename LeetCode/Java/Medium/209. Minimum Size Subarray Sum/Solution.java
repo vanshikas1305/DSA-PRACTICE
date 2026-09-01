@@ -14,5 +14,5 @@ class Solution {
        
           
     }
-  return min>=nums.length?0:min;
+  return min>nums.length?0:min;
 }}
