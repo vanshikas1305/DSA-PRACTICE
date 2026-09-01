@@ -3,7 +3,7 @@ class Solution {
        int l=0;
        int sum=0;
 
-       int min = nums.length;
+       int min = num;
        for(int r=0;r<nums.length;r++){
         sum+=nums[r];
          while(sum>=target){
